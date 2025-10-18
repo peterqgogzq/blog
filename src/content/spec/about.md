@@ -1,9 +1,20 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="saicaca/fuwari"}
+⚠️內含社恐成分  請小心服用⚠️
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+# 我接地，大家都電我
+
+Mizuki&MIKU is my wife<br>
+I’m a SAD and OCD disease<br>
+秉持著「君子不器」的精神<br>
+プロセカ小萌新&CS:GO小萌新<br>
+最近都在玩GTA V 和 CS<br>
+
+夢想啟動未來 Imagination at work<br>
+
+> ### 經歷
+> - 大安高工學生(即將肄業)<br>
+> - 大安電研~~社長~~(因為搞爛太多東西所以沒有實權)<br>
+> - 2024.10 臺灣尚青 TAIWAN HolyYoung Training- 網頁安全課程結業<br>
+> - SITCON 2024、HITCON 2025 (學生贊助計畫取得門票)<br>
+> - No Hake No CTF 取得極差成績(大概中段)<br>
