@@ -1,10 +1,17 @@
+---
+title: "yt-dlp教學"
+description: "yt-dlp教學"
+pubDate: 2025-10-19
+published: 2025-10-19
+---
+
 # yt-dlp教學
 
 # 注意事項
 本文僅作為學術分享 請勿用於非法用途
 
 # 開始
-[yt-dlp](https://github.com/yt-dlp/yt-dlp)是款開源的Youtube下載工具，可以導入cookit來模仿使用者
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) 是款開源的Youtube下載工具，可以導入cookit來模仿使用者
 
 將程式目錄加入system PATH就可以整合進CMD
 在Windows搜索`檢視進階系統設定`<br>
