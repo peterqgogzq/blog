@@ -18,16 +18,16 @@ draft: false
 將程式目錄加入 system PATH，就可以整合進 CMD。
 
 在 Windows 搜索「檢視進階系統設定」  
-![alt text](/images/image1.png)
+![alt text](./images/image1.png)
 
 找到環境變數  
-![alt text](/images/image2.png)
+![alt text](./images/image2.png)
 
 在系統變數的 Path 選項按「編輯」  
-![alt text](/images/image3.png)
+![alt text](./images/image3.png)
 
 點選新增，將 `yt-dlp.exe` 的路徑貼上並保存  
-![alt text](/images/image4.png)
+![alt text](./images/image4.png)
 
 # 指令與參數  
 `yt-dlp --version`列出版本號  
