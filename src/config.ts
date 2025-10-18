@@ -16,13 +16,13 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		enable: true,
+		src: "assets/images/demo-banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "pixiv", // Credit text to be displayed
-			url: "https://www.pixiv.net/artworks/124928956", // (Optional) URL link to the original artwork or artist's page
+			text: "Pixiv-絆", // Credit text to be displayed
+			url: "https://www.pixiv.net/artworks/136004662", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "迷茫的汪汪",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	bio: "一個喜歡自己研究東西的高中牲",
 	links: [
 		{
 			name: "Twitter",
