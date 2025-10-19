@@ -1,8 +1,8 @@
-—-
+---
 title: "建置MSYS2環境"
 description: "了解如何在Windows 系統上使用GNU編譯器以及其他的Linux程式"
 published: 2025-10-19
-—-
+---
 
 # msys2
  msys2是個輕量級類Unix shell ，可以安裝MinGW64等編譯器。  
