@@ -1,10 +1,10 @@
 ---
 title: "VHDL"
-description: "超高速硬體描述語言"
+description: "超高速積體電路硬體描述語言"
 published: 2025-10-19
 ---
 # VHDL 是什麼
-VHDL全稱超高速積體電路描述語言，從IEEE發表IEEE 1076-198之後，被各大EDA採用。
+VHDL全稱超高速積體電路硬體描述語言，從IEEE發表IEEE 1076-198之後，被各大EDA採用。
 
 # VHDL基本語法
  1. 不分大小寫
