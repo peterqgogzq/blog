@@ -102,9 +102,9 @@ project
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/second.cpp",
+                "${workspaceFolder}/main.cpp",
                 "-o",
-                "${workspaceFolder}/second.exe"
+                "${workspaceFolder}/main.exe"
             ],
             "group": "build",
             "problemMatcher": [
