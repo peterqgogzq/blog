@@ -32,7 +32,7 @@ published: 2025-10-19
 確認更改生效，可以在`CMD.exe`輸入  
 `gcc --version` 或 `g++ --version`  
 應該會顯示  
-```
+```CMD.exe
 C:\Users\peter>g++ --version
 g++ (Rev8, Built by MSYS2 project) 15.2.0
 Copyright (C) 2025 Free Software Foundation, Inc.

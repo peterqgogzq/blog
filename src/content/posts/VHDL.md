@@ -12,7 +12,8 @@ VHDL全稱超高速積體電路硬體描述語言，從IEEE發表IEEE 1076-198�
 `library ieee:` —使用IEEE函式庫  
 `use ieee.std_logic_1164`—使用IEEE 1164(基本邏輯閘)包  
 3. entity
-```entity <name> is
+```VHDL
+entity <name> is
     port(
                 A : IN STD_LOGIC;
                 B : OUT STD_LOGIC
@@ -20,7 +21,8 @@ VHDL全稱超高速積體電路硬體描述語言，從IEEE發表IEEE 1076-198�
 end [name];
 ```
 4. architecture
-```architecture <architecture> of <name> is
+```VHDL
+architecture <architecture> of <name> is
 begin
     —configuration 
 end [architecture] ;

@@ -12,7 +12,7 @@ Windows Sandbox的副檔名為`.wsb`，使用XML格式
 
 > - 範例
 
-```
+```XML
 <Configuration>
   <MappedFolders>
     <MappedFolder>
