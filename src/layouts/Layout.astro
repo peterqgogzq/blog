@@ -565,3 +565,8 @@ if (window.swup) {
 	document.addEventListener("swup:enable", setup)
 }
 </script>
+<script>
+if (navigator.userAgent.includes("FBAN") || navigator.userAgent.includes("FBAV")) {
+  window.location.href = "https://yourdomain.com/?openInBrowser=true";
+}
+</script>
