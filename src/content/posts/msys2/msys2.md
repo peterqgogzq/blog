@@ -14,7 +14,7 @@ published: 2025-10-19
 # 建置
 下載msys2  
 安裝好之後應該會有數個Linux 終端，推薦使用urct64  
-打開終端，執行更新指令`pacman -Syu`  
+打開終端，執行更新指令`pacman -Syu`和`pacman -su`  
 待更新完成後再下載編譯器之類的組建。  
 編譯器等系組件的Package可以在[package查詢頁面](https://packages.msys2.org/queue)找到，像是[gcc](https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-gcc)，基本上安裝時會自動安裝依賴項，但編譯出錯時還是要手動檢查是否有缺少或衝突。  
 
