@@ -10,6 +10,9 @@ published: 2025-11-06
 # 範例程式碼  
 
 ## 01  
+
+基礎元素語法架構  
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -25,6 +28,14 @@ published: 2025-11-06
 <samp>Hello world!</samp>  
 
 ## 02  
+嵌入框架  
+```html
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7xiDcv4X3oH0rsUlPO2YOC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+```
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7xiDcv4X3oH0rsUlPO2YOC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+## 03  
 
 AI寫出來的狗屁遊戲，就交給你們來改良了  
 
