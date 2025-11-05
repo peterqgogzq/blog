@@ -1,6 +1,6 @@
 ---
-title: "yt-dlp教學"
-description: "yt-dlp教學"
+title: "yt-dlp&FFmpeg教學"
+description: "yt-dlp & FFmpeg教學"
 pubDate: 2025-10-19
 updatedDate: 2025-10-19
 published: 2025-10-19
@@ -55,9 +55,15 @@ draft: false
 # ffempg  
 
 [ffmpeg](https://www.ffmpeg.org/download.html)是一款輕量強大的軟體，本文用來合併視訊與音訊  
-`ffmpeg -i <video> -i <audio> -c copy <output.mkv>`  
 
+`ffmpeg -i <video> -i <audio> -c copy <output.mkv>`  
 將下載的視訊和音訊檔按路徑貼在`<video>`和`<Audio>`的欄位裡，即可合併視訊和音訊檔案  
 
+若是要分離視訊或音訊，可以使用下列命令
 
+```
+ffmpeg -i <input> -vn -acodec copy <audio.m4a>
+ffmpeg -i <input> -an -vcodec copy <video.mp4>
+```
+將要目標檔案路徑貼入`<input>`並指定輸出檔名，輸出檔案將會儲存在命令列的工作目錄下
 
