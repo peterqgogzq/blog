@@ -4,6 +4,9 @@ description: "大安電研網頁設計範例程式碼"
 published: 2025-11-06
 ---
 
+# 簡報原始檔  
+<a href="https://github.com/peterqgogzq/-/blob/main/dacsc_web/web_html.pdf">下載處</a>  
+
 # 範例程式碼  
 
 ## 01  
