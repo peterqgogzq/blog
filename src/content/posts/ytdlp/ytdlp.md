@@ -69,20 +69,20 @@ ffmpeg -i <input> -an -vcodec copy <video.mp4>
 
 CPU Video Encode :
 > - libx264    - H264
-> - libsvtav1  - H265(Intel)
-> - libaom-av1 - H265
+> - libsvtav1  - H265/HEVC(Intel)
+> - libaom-av1 - H265/HEVC
 > - libvpx-vp9 - VP9
 
 GPU Video Encode (NVIDIA):
 > - h264_nvenc  - H264
-> - hevc_nvenc  - H265
+> - hevc_nvenc  - H265/HEVC
 > - av1_nvenc   - AV1
 > - mjpeg_nvenc - MJPEG
 
 GPU Video Encode (AMD Radeon):
-> - h264_amf
-> - hevc_amf
-> - av1_amf
+> - h264_amf - H264
+> - hevc_amf - H265/HEVC
+> - av1_amf  - AV1
 
 Android Video API
 > - h264_mediacodec - H264
