@@ -14,7 +14,7 @@ draft: false
 
 ## 開始
 [yt-dlp](https://github.com/yt-dlp/yt-dlp) 是一款開源的 YouTube 下載工具，可以導入 cookie 來模仿使用者。
-
+### Windows
 將程式目錄加入 system PATH，就可以整合進 CMD。
 
 在 Windows 搜索「檢視進階系統設定」  
@@ -50,20 +50,47 @@ draft: false
 # 使用cookies  
 
 `yt-dlp --cookies ["cookies PATH"] <URL>`   
-`yt-dlp --cookies-from-browser chrome <URL>`  
+`yt-dlp --cookies-from-browser <Browser> <URL>`  
 
 # ffempg  
 
-[ffmpeg](https://www.ffmpeg.org/download.html)是一款輕量強大的軟體，本文用來合併視訊與音訊  
+[ffmpeg](https://www.ffmpeg.org/download.html)是一款輕量強大的多媒體引擎
 
 `ffmpeg -i <video> -i <audio> -c copy <output.mkv>`  
 將下載的視訊和音訊檔按路徑貼在`<video>`和`<Audio>`的欄位裡，即可合併視訊和音訊檔案  
 
 若是要分離視訊或音訊，可以使用下列命令
 
-```
+```bash
 ffmpeg -i <input> -vn -acodec copy <audio.m4a>
 ffmpeg -i <input> -an -vcodec copy <video.mp4>
 ```
 將要目標檔案路徑貼入`<input>`並指定輸出檔名，輸出檔案將會儲存在命令列的工作目錄下
+
+CPU Video Encode :
+> - libx264    - H264
+> - libsvtav1  - H265(Intel)
+> - libaom-av1 - H265
+> - libvpx-vp9 - VP9
+
+GPU Video Encode (NVIDIA):
+> - h264_nvenc  - H264
+> - hevc_nvenc  - H265
+> - av1_nvenc   - AV1
+> - mjpeg_nvenc - MJPEG
+
+GPU Video Encode (AMD Radeon):
+> - h264_amf
+> - hevc_amf
+> - av1_amf
+
+Android Video API
+> - h264_mediacodec - H264
+> - hevc_mediacodec - H265
+> - av1_mediacodec  - AV1
+
+Another :
+> - prores_ks - Apple ProRes
+> - ffv1      - FF Video Codec 1
+> - gif       - output GIF
 
