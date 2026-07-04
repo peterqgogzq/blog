@@ -33,4 +33,4 @@ Windows Sandbox的副檔名為`.wsb`，使用XML格式
   </MappedFolders>
 </Configuration>
 ```
-> - 將要映射進Sandbox的資料夾目錄填入[PATH]，保存後並把附檔名改成`.wbs`。打開檔案之後設定的目錄就會出現在沙箱的桌面
+> - 將要映射進Sandbox的資料夾目錄填入[PATH]，保存後並把附檔名改成`.wsb`。打開檔案之後設定的目錄就會出現在沙箱的桌面
